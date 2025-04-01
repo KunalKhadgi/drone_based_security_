@@ -55,19 +55,9 @@ python main.py
 ```
 
 ### Setting Up Log Query (.env file)
-1. Create a `.env` file in the root directory:
+1. Create a `.env` file in the root directory and enter:
 ```ini
-DATABASE_PATH=detection_log.db
-LOG_FILE=detection_log.txt
-```
-2. Ensure the `.env` file is loaded properly in `log_query.py`:
-```python
-from dotenv import load_dotenv
-load_dotenv()
-```
-3. Run the query script:
-```bash
-python log_query.py
+API_KEY=your_google_genai_api_key
 ```
 
 ### Querying Logs
