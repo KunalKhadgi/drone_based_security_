@@ -9,6 +9,7 @@ This project implements object detection and motion analysis using the YOLOv8 mo
 - **Database Logging**: Logs detected objects with timestamps and context.
 - **Video and Webcam Processing**: Supports both file-based and real-time detection.
 - **Entry Zone Logging**: Detects and logs objects entering specific zones.
+- **Database querying**: Uses flash-2.0 for qureying db in nlp
 
 ## Project Structure
 ```
