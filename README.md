@@ -54,12 +54,6 @@ python main.py
 python main.py
 ```
 
-### Querying Logs
-To view logged detections from the database, run:
-```bash
-python log_query.py
-```
-
 ### Setting Up Log Query (.env file)
 1. Create a `.env` file in the root directory:
 ```ini
@@ -72,6 +66,12 @@ from dotenv import load_dotenv
 load_dotenv()
 ```
 3. Run the query script:
+```bash
+python log_query.py
+```
+
+### Querying Logs
+To view logged detections from the database, run:
 ```bash
 python log_query.py
 ```
