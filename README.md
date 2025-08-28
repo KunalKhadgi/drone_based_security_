@@ -1,5 +1,8 @@
 # Object Detection and Motion Analysis with YOLOv8
 
+## Demo Link
+Find the demo link [here](https://www.loom.com/share/dd064afbf5324e0dba164646986cfc33?sid=1ca287eb-c1b2-4ac3-beb4-e26342c2ef8c)
+
 ## Overview
 This project implements object detection and motion analysis using the YOLOv8 model. It processes video files, images, and webcam streams to identify and track objects. The detections are logged into a SQLite database for further analysis.
 
